@@ -1,0 +1,69 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+    {
+        "type": "Feature",
+        "id": 0,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [55.751244, 37.629017]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "Магазин 1",
+            "balloonContentBody": "Текст с описанием, если нужен",
+            "clusterCaption": "Магазин 1",
+            "hintContent": "Магазин 1"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 1,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [55.749628, 37.537425]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "Магазин 2",
+            "balloonContentBody": "Текст с описанием, если нужен",
+            "clusterCaption": "Магазин 2",
+            "hintContent": "Магазин 2"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 2,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [55.758929, 37.664464]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "Магазин 3",
+            "balloonContentBody": "Текст с описанием, если нужен",
+            "clusterCaption": "Магазин 3",
+            "hintContent": "Магазин 3"
+        }
+    },
+    {
+        "type": "Feature",
+        "id": 3,
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [55.708191, 37.545366]
+        },
+        "properties":
+        {
+            "balloonContentHeader": "Магазин 4",
+            "balloonContentBody": "Текст с описанием, если нужен",
+            "clusterCaption": "Магазин 4",
+            "hintContent": "Магазин 4"
+        }
+    }
+	]
+}
