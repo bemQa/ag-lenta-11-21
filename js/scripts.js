@@ -40,11 +40,11 @@ function mapInit () {
         });
 
     objectManager.objects.options.set({
-        preset: 'islands#greenDotIcon', 
+        preset: 'islands#yellowDotIcon', 
         iconColor: '#FFB800'
     });
     objectManager.clusters.options.set({
-        preset: 'islands#greenClusterIcons',
+        preset: 'islands#yellowClusterIcons',
         iconColor: '#FFB800'
     });
     myMap.geoObjects.add(objectManager);

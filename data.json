@@ -12,8 +12,6 @@
         "properties":
         {
             "balloonContentHeader": "Магазин 1",
-            "balloonContentBody": "Текст с описанием, если нужен",
-            "clusterCaption": "Магазин 1",
             "hintContent": "Магазин 1"
         }
     },
@@ -28,8 +26,6 @@
         "properties":
         {
             "balloonContentHeader": "Магазин 2",
-            "balloonContentBody": "Текст с описанием, если нужен",
-            "clusterCaption": "Магазин 2",
             "hintContent": "Магазин 2"
         }
     },
@@ -44,8 +40,6 @@
         "properties":
         {
             "balloonContentHeader": "Магазин 3",
-            "balloonContentBody": "Текст с описанием, если нужен",
-            "clusterCaption": "Магазин 3",
             "hintContent": "Магазин 3"
         }
     },
@@ -60,8 +54,6 @@
         "properties":
         {
             "balloonContentHeader": "Магазин 4",
-            "balloonContentBody": "Текст с описанием, если нужен",
-            "clusterCaption": "Магазин 4",
             "hintContent": "Магазин 4"
         }
     }
