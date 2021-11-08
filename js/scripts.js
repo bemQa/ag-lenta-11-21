@@ -13,8 +13,7 @@ $(document).ready(function () {
                     breakpoint: 1000,
                     settings: {
                         swipe: true,
-                        dots: true,
-                        arrows: false
+                        dots: true
                     }
                 }
             ]
@@ -40,8 +39,14 @@ function mapInit () {
             clusterDisableClickZoom: true
         });
 
-    objectManager.objects.options.set('preset', 'islands#greenDotIcon');
-    objectManager.clusters.options.set('preset', 'islands#greenClusterIcons');
+    objectManager.objects.options.set({
+        preset: 'islands#greenDotIcon', 
+        iconColor: '#FFB800'
+    });
+    objectManager.clusters.options.set({
+        preset: 'islands#greenClusterIcons',
+        iconColor: '#FFB800'
+    });
     myMap.geoObjects.add(objectManager);
     myMap.behaviors.disable('scrollZoom');
     myMap.controls.add('zoomControl');
