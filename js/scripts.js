@@ -35,8 +35,7 @@ function mapInit () {
 
         objectManager = new ymaps.ObjectManager({
             clusterize: true,
-            gridSize: 32,
-            clusterDisableClickZoom: true
+            gridSize: 32
         });
 
     objectManager.objects.options.set({
