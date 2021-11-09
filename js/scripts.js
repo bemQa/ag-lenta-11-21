@@ -18,6 +18,15 @@ $(document).ready(function () {
                 }
             ]
         });
+        $('.eco-slider').on('afterChange', function(event, slick, currentSlide){
+            let prevSlide = currentSlide-1;
+            $('.eco-slide[data-slick-index="'+prevSlide+'"]').addClass('prev-slide');
+        });
+
+        $('.eco-slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+            let prevSlide = currentSlide-1;
+            $('.eco-slide[data-slick-index="'+prevSlide+'"]').removeClass('prev-slide');
+        });
     }
 
 });

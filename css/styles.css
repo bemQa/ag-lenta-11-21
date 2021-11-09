@@ -707,8 +707,8 @@ footer {
     transition: all .4s ease;
 }
 
-.eco-slide.slick-active {
-
+.eco-slide.prev-slide:not(.slick-active) {
+    opacity: 0;
 }
 
 .eco-slide:not(.slick-active) {
